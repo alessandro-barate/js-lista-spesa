@@ -6,7 +6,8 @@ Consigli:
 - Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all'interno ciclo while
 
 - Dichiaro variabile lista della spesa con dentro dei valori --> array
-- ciclo while:
+- Dichiaro il contatore
+- Ciclo while:
   - leggo i valori dell'array
   - creare gli li della ul
   - valore li uguale al valore letto dall'array
