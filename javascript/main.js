@@ -1,7 +1,8 @@
 "use strict";
 
-/* - Ricordiamoci di inizializzare la variabile di contatore prima dell'inizio del ciclo while
-- Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all'interno ciclo while
+/* 
+- Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita,
+all'interno ciclo while
 
 
 - Ciclo while:
@@ -21,3 +22,12 @@ const list = [
 ];
 
 let count = 0;
+
+const ul = document.getElementById("list");
+
+while (count < list.length) {
+  let li = document.createElement("li");
+  ul.append(li);
+  count++;
+  console.log(ul);
+}
