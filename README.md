@@ -10,5 +10,5 @@ Consigli:
 - Ciclo while:
   - leggo i valori dell'array
   - creare gli li della ul
-  - valore li uguale al valore letto dall'array
+  - valore li uguale ai valori letti dall'array
   - inserisco gli li creati nella ul

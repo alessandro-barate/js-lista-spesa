@@ -1,35 +1,28 @@
 "use strict";
 
-/* 
-- Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita,
-all'interno ciclo while
-
-
-- Ciclo while:
-  - leggo i valori dell'array
-  - creare gli li della ul
-  - valore li uguale al valore letto dall'array
-  - inserisco gli li creati nella ul  */
-
+// Dichiaro l'array
 const list = [
   "maccheroni",
   "tonno",
-  "pomodori",
+  "pomodorini",
   "cipolla",
   "peperoncino",
   "basilico",
   "passata di pomodoro",
 ];
 
+// Dichiaro la variabile che passo al ciclo (contatore)
 let count = 0;
 
+// Dichiaro la variabile che legge l'ID della lista dall'HTML
 const ul = document.getElementById("list");
 
+// Ciclo while per ciclare i valori dell'array, creare ogni volta un li, metterci dentro il valore
+// appena letto ed inserire il li nella ul. Si incrementa poi il contatore
 while (count < list.length) {
   let li = document.createElement("li");
   li.innerText = list[count];
+  li.classList.add("li-style");
   ul.append(li);
   count++;
 }
-
-console.log(ul);

@@ -3,3 +3,34 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(44, 88, 170);
+}
+
+h1 {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.col {
+  width: 60%;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 60px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.li-style {
+  list-style: none;
+  padding-left: 30px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
