@@ -27,7 +27,9 @@ const ul = document.getElementById("list");
 
 while (count < list.length) {
   let li = document.createElement("li");
+  li.innerText = list[count];
   ul.append(li);
   count++;
-  console.log(ul);
 }
+
+console.log(ul);
