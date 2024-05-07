@@ -20,7 +20,7 @@ const ul = document.getElementById("list");
 // Ciclo while per ciclare i valori dell'array, creare ogni volta un li, metterci dentro il valore
 // appena letto ed inserire il li nella ul. Si incrementa poi il contatore
 while (count < list.length) {
-  let li = document.createElement("li");
+  const li = document.createElement("li");
   li.innerText = list[count];
   li.classList.add("li-style");
   ul.append(li);
